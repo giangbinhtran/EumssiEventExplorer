@@ -178,7 +178,7 @@
 											
 										
 										<br/>
-										<a href='<s:url action="textsync" includeContext="true"><s:param name="entitynames" value="%{#entityname}"/>
+										<a href='<s:url action="textsync" includeContext="true"><s:param name="myparam" value="%{#entityname}"/>
 										</s:url>'>Second Screen Player </a>
 									</s:if>
 									
