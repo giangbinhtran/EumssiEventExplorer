@@ -1,0 +1,5524 @@
+{
+    "results": [
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Abkhazia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sukhumi"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Abkhazian apsar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Abkhaz language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "43.0"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "40.9833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Adjara"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Batumi"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Georgian lari"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Georgian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "41.65"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "42.0"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Albania"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tirana"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Albanian lek"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Albanian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "41.3333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "19.8"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Algeria"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Algiers"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Algerian dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "36.7"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "3.21667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Angola"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Luanda"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Angolan kwanza"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Portuguese language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-8.83333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "13.3333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Antigua_and_Barbuda"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/St._John's,_Antigua_and_Barbuda"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "East Caribbean dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "17.1167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-61.85"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Argentina"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Buenos_Aires"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Argentine peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-34.6"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-58.3833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ascension_Island"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Georgetown,_Ascension_Island"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Saint Helena pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-7.93333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-14.4167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Autonomous_Province_of_Kosovo_and_Metohija"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pristina"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Serbian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "42.6667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "21.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Autonomous_Province_of_Kosovo_and_Metohija"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pristina"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Albanian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "42.6667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "21.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Autonomous_Province_of_Kosovo_and_Metohija"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pristina"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "42.6667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "21.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bahrain"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Manama"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Bahraini dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "26.2167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "50.5833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bangladesh"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dhaka"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Bangladeshi taka"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Bengali language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "23.7"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "90.35"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Barbados"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bridgetown"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Barbadian dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English overseas possessions"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "13.1"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-59.6167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Belize"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Belmopan"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Belize dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "17.25"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-88.7667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Benin"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Porto-Novo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "West African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "6.46667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "2.6"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bermuda"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Hamilton,_Bermuda"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Bermudian dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "32.3"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-64.7833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bhutan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Thimphu"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Bhutanese ngultrum"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Dzongkha"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "27.4667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "89.6417"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Botswana"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Gaborone"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Botswana pula"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-24.6583"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "25.9083"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Brazil"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Brasília"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Brazilian real"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Brazilian Portuguese"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-15.7833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-47.8667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/British_Indian_Ocean_Territory"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Diego_Garcia"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pound sterling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-7.3"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "72.4"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/British_Virgin_Islands"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Road_Town"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.4314"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-64.623"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Brunei"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bandar_Seri_Begawan"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Brunei dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Malay language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "4.89028"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "114.942"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Burkina_Faso"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ouagadougou"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "West African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "12.3333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-1.66667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Burma"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Naypyidaw"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Burmese kyat"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Burmese language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "19.75"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "96.1"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Burundi"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bujumbura"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Burundian franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Kirundi"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-3.5"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "30.0"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cambodia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Phnom_Penh"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Cambodian riel"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Khmer language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "11.55"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "104.917"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cameroon"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Yaoundé"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "3.86667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "11.5167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cameroon"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Yaoundé"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "3.86667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "11.5167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Canada"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ottawa"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Canadian dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "45.4"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-75.6667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cape_Verde"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Praia"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Cape Verdean escudo"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Portuguese language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "14.9167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-23.5167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Carriacou_and_Petite_Martinique"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Hillsborough,_Carriacou"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "East Caribbean dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "12.4817"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-61.4583"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cayman_Islands"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/George_Town,_Cayman_Islands"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Cayman Islands dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "19.3333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-81.4"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Central_African_Republic"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bangui"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "African French"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "4.36667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.5833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Central_African_Republic"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bangui"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Sango language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "4.36667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.5833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Chile"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Santiago"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Chilean peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-33.4333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-70.6667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/China"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Beijing"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Renminbi"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Standard Chinese"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "39.9167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "116.383"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Colombia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bogotá"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Colombian peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "4.58333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-74.0667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Comoros"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Moroni,_Comoros"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Comorian franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Comorian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-11.6833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "43.2667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cuba"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Havana"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Cuban convertible peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Cuban Spanish"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "23.1333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-82.3833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cuba"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Havana"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Cuban peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Cuban Spanish"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "23.1333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-82.3833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cyprus"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nicosia"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Turkish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "35.1667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "33.3667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cyprus"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nicosia"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Greek language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "35.1667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "33.3667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Democratic_Republic_of_the_Congo"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kinshasa"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Congolese franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-4.31667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.3167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Djibouti"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Djibouti_(city)"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Djiboutian franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "11.6"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "43.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dominica"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Roseau"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "East Caribbean dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.3"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-61.3833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dominican_Republic"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Santo_Domingo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Dominican peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Dominican Spanish"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "19.0"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-70.6667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/East_Timor"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dili"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Portuguese language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-8.56667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "125.567"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ecuador"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Quito"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-0.15"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-78.35"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Egypt"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Cairo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Egyptian pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "30.0333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "31.2167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/El_Salvador"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/San_Salvador"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish people"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "13.6667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-89.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Equatorial_Guinea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Malabo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "3.75"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "8.78333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Equatorial_Guinea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Malabo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Portuguese language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "3.75"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "8.78333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Equatorial_Guinea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Malabo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "3.75"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "8.78333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Eritrea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Asmara"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Eritrean nakfa"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Tigrinya language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.3333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "38.9167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Eritrea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Asmara"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Eritrean nakfa"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.3333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "38.9167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Federal_Government_of_Somalia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mogadishu"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali shilling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "2.03333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "45.35"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/French_Fifth_Republic"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Paris"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "48.8567"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "2.35083"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/French_Polynesia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Papeete"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "CFP franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-17.5667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-149.6"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Gabon"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Libreville"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "0.383333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "9.45"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galmudug"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Galkayo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali shilling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "6.76667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "47.4167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Georgia_(country)"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tbilisi"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Georgian lari"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Georgian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "41.7167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "44.7833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Germany"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Berlin"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "German language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "52.5167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "13.3833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ghana"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Accra"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Ghanaian Cedi"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Official language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "5.55"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-0.2"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Gibraltar"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Gibraltar_national_football_team"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Gibraltar pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "36.1333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-5.35"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Greece"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Athens"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Greek language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "37.9667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "23.7167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Grenada"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/St._George's,_Grenada"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "East Caribbean dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "12.05"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-61.75"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guatemala"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guatemala_City"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Guatemalan quetzal"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "14.6333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-90.5"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guernsey"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Peter_Port"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Guernsey pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "49.45"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-2.55"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guernsey"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Peter_Port"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pound sterling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "49.45"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-2.55"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guinea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Conakry"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Guinean franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "France"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "9.51667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-13.7"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Guinea-Bissau"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bissau"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "West African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Portuguese language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "11.8667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-15.6"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Haiti"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Port-au-Prince"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Haitian gourde"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.5333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-72.3333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Honduras"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tegucigalpa"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Honduran lempira"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "14.1"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-87.2167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Iran"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tehran"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Iranian rial"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Persian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "35.6833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "51.4167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Iraq"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Baghdad"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Iraqi dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "33.3333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "44.4333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Iraqi_Kurdistan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Erbil"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Iraqi dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central Kurdish"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "36.1833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "44.0"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Iraqi_Kurdistan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Erbil"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Iraqi dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "36.1833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "44.0"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Iraqi_Kurdistan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Erbil"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Iraqi dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Kurdish languages"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "36.1833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "44.0"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Isle_of_Man"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Douglas,_Isle_of_Man"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Manx pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Manx language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "54.15"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-4.48333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Isle_of_Man"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Douglas,_Isle_of_Man"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pound sterling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Manx language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "54.15"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-4.48333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Isle_of_Man"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Douglas,_Isle_of_Man"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Manx pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "54.15"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-4.48333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Isle_of_Man"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Douglas,_Isle_of_Man"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pound sterling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "54.15"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-4.48333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Israel"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jerusalem"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Israeli new shekel"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Hebrew language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "31.7833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "35.2167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ivory_Coast"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Yamoussoukro"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "West African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "6.85"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-5.3"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jamaica"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kingston,_Jamaica"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Jamaican dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Jamaican English"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "17.9833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-76.8"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jersey"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Helier"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pound sterling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "49.19"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-2.11"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jordan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Amman"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Jordanian dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "31.95"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "35.9333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kazakhstan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Astana"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Kazakhstani tenge"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Kazakh language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "51.1667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "71.4167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kenya"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nairobi"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Kenyan shilling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-1.26667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "36.8"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Khatumo_State"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Las_Anod"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali shilling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "9.13333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "48.4167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kiribati"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/South_Tarawa"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Kiribati dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "1.46667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "173.033"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kosovo"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pristina"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Albanian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "42.6667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "21.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kuwait"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kuwait_City"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Kuwaiti dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "29.3667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "47.9667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Laos"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Vientiane"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Lao kip"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Lao language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "17.9667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "102.6"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Lebanon"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Beirut"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Lebanese pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "33.9"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "35.5333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Lesotho"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Maseru"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Lesotho loti"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Sotho language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-29.4667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "27.9333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Liberia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Monrovia"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Liberian dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "6.31667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-10.8"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Libya"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tripoli"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Libyan dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "32.8667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "13.1833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Luxembourg"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Luxembourg_(city)"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "49.6"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "6.11667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Madagascar"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Antananarivo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Malagasy ariary"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Malagasy language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-18.9167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "47.5167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Malaysia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Putrajaya"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Malaysian ringgit"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Malaysian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "3.13333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "101.7"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Malaysia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kuala_Lumpur"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Malaysian ringgit"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Malaysian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "3.13333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "101.7"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Maldives"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Malé"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Maldivian rufiyaa"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Maldivian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "4.16667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "73.5"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mali"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bamako"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "West African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "12.65"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-8.0"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Marshall_Islands"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Majuro"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Marshallese language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "7.11667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "171.067"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mauritania"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nouakchott"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Mauritanian ouguiya"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.15"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-15.9667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mexico"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mexico_City"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Mexican peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Federal government of Mexico"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "19.4333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-99.1333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Moldova"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Chișinău"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Moldovan leu"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Romanian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "47.0"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "28.9167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Monaco"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Monaco-Ville"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro sign"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "43.7167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "7.41667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Montenegro"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Podgorica"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Montenegrin language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "42.7833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "19.4667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Morocco"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Rabat"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Moroccan dirham"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "34.0333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-6.85"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Morocco"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Rabat"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Moroccan dirham"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Berber languages"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "34.0333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-6.85"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mozambique"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Maputo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Mozambican metical"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Portuguese language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-25.95"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "32.5833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nagorno-Karabakh_Republic"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Stepanakert"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Armenian dram"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Armenian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "39.8667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "46.7167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Namibia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Windhoek"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Namibian dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-22.57"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "17.0861"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nepal"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kathmandu"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Nepalese rupee"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Nepali language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "27.7"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "85.3167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Netherlands"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Amsterdam"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Dutch language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "52.3667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "4.88333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nevis"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Charlestown,_Saint_Kitts_and_Nevis"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "East Caribbean dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "17.3333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-62.75"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/New_Zealand"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Wellington"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "New Zealand dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "New Zealand English"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-41.2833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "174.45"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/New_Zealand"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Wellington"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "New Zealand dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "New Zealand Sign Language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-41.2833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "174.45"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Niger"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Niamey"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "West African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "13.5333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "2.08333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Norfolk_Island"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kingston,_Norfolk_Island"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Australian dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Norfuk dialect"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-29.03"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "167.95"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Norfolk_Island"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kingston,_Norfolk_Island"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Australian dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-29.03"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "167.95"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/North_Korea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pyongyang"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "North Korean won"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Korean language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "39.0333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "125.75"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Northern_Cyprus"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/North_Nicosia"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Turkish lira"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Turkish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "35.1833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "33.3667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Northern_Mariana_Islands"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Capitol_Hill,_Saipan"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.2333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "145.75"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Oman"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Muscat,_Oman"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Omani rial"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Omani Arabic"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "23.6"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "58.55"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pakistan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Islamabad"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pakistani rupee"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Urdu"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "33.6667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "73.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Pakistan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Islamabad"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pakistani rupee"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "33.6667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "73.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Palau"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Melekeok"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "7.35"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "134.467"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Palau"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ngerulmud"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "7.35"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "134.467"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Panama"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Panama_City"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Panamanian balboa"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "8.96667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-79.5333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Philippines"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Manila"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Philippine peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Filipino language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "14.5833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "120.967"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Puerto_Rico"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/San_Juan,_Puerto_Rico"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English in Puerto Rico"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.45"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-66.1"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Puerto_Rico"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/San_Juan,_Puerto_Rico"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Puerto Rican Spanish"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.45"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-66.1"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Puntland"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Garoowe"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali shilling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "8.4"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "48.4833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Qatar"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Doha"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Qatari riyal"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "25.3"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "51.5167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Republic_of_the_Congo"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Brazzaville"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Central African CFA franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-4.26667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.2833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Rwanda"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kigali"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Rwandan franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Kinyarwanda"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-1.94388"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "30.0595"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Helena"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jamestown,_Saint_Helena"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Saint Helena pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-15.9333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-5.71667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Helena,_Ascension_and_Tristan_da_Cunha"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Jamestown,_Saint_Helena"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Saint Helena pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-15.9333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-5.71667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Kitts_and_Nevis"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Basseterre"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "East Caribbean dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "17.3"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-62.7333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Lucia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Castries"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "East Caribbean dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "England"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "14.0167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-60.9833"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Pierre_and_Miquelon"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint-Pierre,_Saint_Pierre_and_Miquelon"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "France"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "46.7833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-56.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saint_Vincent_and_the_Grenadines"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Kingstown"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "East Caribbean dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "13.1667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-61.2333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/San_Marino"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/City_of_San_Marino"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Euro"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Italian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "43.9333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "12.4333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Saudi_Arabia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Riyadh"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Saudi riyal"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "24.65"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "46.7667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Seychelles"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Victoria,_Seychelles"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Seychellois rupee"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Seychellois Creole"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-4.61667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "55.45"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sint_Maarten"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Philipsburg,_Sint_Maarten"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Netherlands Antillean guilder"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Dutch language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.0333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-63.05"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Somalia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mogadishu"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali shilling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "2.03333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "45.35"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Somaliland"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Hargeisa"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somaliland shilling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Somali language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "9.55"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "44.05"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/South_Georgia_and_the_South_Sandwich_Islands"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/King_Edward_Point"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pound sterling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-54.2833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-36.5"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/South_Korea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Seoul"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "ISO 4217"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Korean language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "37.55"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "126.967"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/South_Korea"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Seoul"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "South Korean won"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Korean language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "37.55"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "126.967"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/South_Ossetia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tskhinvali"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Russian ruble"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Russian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "42.2333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "43.9667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/South_Ossetia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tskhinvali"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Russian ruble"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Ossetian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "42.2333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "43.9667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/South_Sudan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Juba"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "South Sudanese pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "4.85"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "31.6"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sri_Lanka"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Colombo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Sri Lankan rupee"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Sinhala language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "6.93333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "79.8333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sri_Lanka"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sri_Jayawardenepura_Kotte"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Sri Lankan rupee"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Sinhala language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "6.93333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "79.8333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sudan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Khartoum"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Sudanese pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.6333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "32.5333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sudan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Khartoum"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Sudanese pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.6333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "32.5333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Suriname"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Paramaribo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Surinamese dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Dutch language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "5.83333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-55.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Syria"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Damascus"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Syrian pound"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "33.5"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "36.3"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Taiwan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Taipei"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "New Taiwan dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Standard Chinese"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "25.0333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "121.633"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tajikistan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Dushanbe"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Tajikistani somoni"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Tajik language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "38.55"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "68.8"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Thailand"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Bangkok"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Thai baht"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Thai language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "13.75"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "100.483"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/The_Bahamas"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Nassau,_Bahamas"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Bahamian dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "25.0667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-77.3333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Transnistria"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tiraspol"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Transnistrian ruble"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Ukrainian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "46.8333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "29.6167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Transnistria"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tiraspol"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Transnistrian ruble"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Romanian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "46.8333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "29.6167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Transnistria"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tiraspol"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Transnistrian ruble"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Russian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "46.8333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "29.6167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tristan_da_Cunha"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Edinburgh_of_the_Seven_Seas"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Pound sterling"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-37.0667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-12.3167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tunisia"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tunis"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Tunisian dinar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "36.8333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "10.15"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Turkey"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ankara"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Turkish lira"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Turkish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "39.9167"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "32.8333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Turkmenistan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Ashgabat"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Turkmenistan manat"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Turkmen language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "37.9667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "58.3333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tuvalu"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Funafuti"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Tuvaluan dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Tuvaluan language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-8.53333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "179.217"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/United_Arab_Emirates"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Abu_Dhabi"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United Arab Emirates dirham"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "24.4667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "54.3667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/United_States_Virgin_Islands"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Charlotte_Amalie,_United_States_Virgin_Islands"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "United States dollar"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "English language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "18.35"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-64.9333"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Uruguay"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Montevideo"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Uruguayan peso"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Spanish language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-34.8833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-56.1667"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Uzbekistan"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Tashkent"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Uzbekistani som"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Uzbek language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "41.2667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "69.2167"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Vanuatu"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Port_Vila"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Vanuatu vatu"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Bislama"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-17.75"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "168.3"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Wallis_(island)"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mata-Utu"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "CFP franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Wallisian language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-13.2667"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-176.2"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Wallis_and_Futuna"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Mata-Utu"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "CFP franc"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "French language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-13.2833"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "-176.183"
+            }
+        },
+        {
+            "country": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Yemen"
+            },
+            "capital": {
+                "type": "uri",
+                "value": "http://dbpedia.org/resource/Sana'a"
+            },
+            "currencyname": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Yemeni rial"
+            },
+            "languagename": {
+                "type": "literal",
+                "xml:lang": "en",
+                "value": "Arabic language"
+            },
+            "lat": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "15.3333"
+            },
+            "long": {
+                "type": "typed-literal",
+                "datatype": "http://www.w3.org/2001/XMLSchema#float",
+                "value": "44.2"
+            }
+        }
+    ]
+}

@@ -18,6 +18,10 @@
             <result name="test">/views/textsyncview.jsp</result>
         </action>
         
+        <action name="countryquestion" 
+			class="de.l3s.eumssi.action.countryQuestionAction">
+            <result name="success">/views/countryQuestionView.jsp</result>
+        </action>
        
         
         
