@@ -11,7 +11,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-	<title>Eumssi Event Explorer</title>
+	<title>Eumssi Second Screen</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css'>
@@ -48,7 +48,7 @@
 
 <div id = "container">
 	<!-- start #header -->
-	<s:include value="/views/header.jsp"></s:include>
+	<s:include value="/views/header_secondscreen.jsp"></s:include>
 	<!-- end #header -->
 	
 	
@@ -71,10 +71,7 @@
 							</tr>
 							
 							<tr height="10">
-									<s:submit name="keyword search" value="Generate Timeline" align="center" method="eventSearch" />
-									<%-- <s:submit name="word cloud" value="Visualize by Wordcloud" align="center" method="wordCloud"/> --%>
-									<s:submit name="forceDirectedLayout" value="Force Directed Layout" align="center" method="forceDirectedLayout"/>
-									<s:submit name="WCEPEvents" value="Wikipedia event faceted search" align="center" method="WCEPeventSearch"/>
+									<s:submit name="VideoContextualization" value="Show Videos" align="center" method="videoContextualize"/>
 							</tr>
 						</table>
 					</td>

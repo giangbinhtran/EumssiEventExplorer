@@ -320,7 +320,7 @@ public class EventSearchByKeywordInDBOnlyAction  extends ActionSupport implement
 			//events = db.searchByKeyword(query, "Eumssi-News-Crawler OR DW-en_GB ", "meta.source.text", maxNumOfEventsToDisplay);
 			events = db.videoSearch(query, sources, searchField, maxNumOfEventsToDisplay);
 			searchsize = events.size();
-					
+			System.out.println("number of found videos: " + searchsize);
 			// get the dates of the first and last events to show on results page:
 			if (!events.isEmpty()){
 				toDate = events.get(0).getDate().toString();
@@ -333,7 +333,7 @@ public class EventSearchByKeywordInDBOnlyAction  extends ActionSupport implement
 		}finally{
 			
 		}
-			
+		System.out.println("Successfully action performed");
 		return "VideoContextualizeView";
 	}
 	

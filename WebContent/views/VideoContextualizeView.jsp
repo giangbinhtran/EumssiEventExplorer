@@ -179,7 +179,7 @@
 										
 										<br/>
 										<a href='<s:url action="textsync" includeContext="true"><s:param name="myparam" value="%{#entityname}"/>
-										</s:url>'>Second Screen Player </a>
+										</s:url>'>Play </a>
 									</s:if>
 									
 						    	</s:div>
