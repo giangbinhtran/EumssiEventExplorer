@@ -20,7 +20,7 @@ import javax.ws.rs.core.MediaType;
 import org.apache.struts2.ServletActionContext;
 import org.json.JSONArray;
 
-@Path("/WebService")
+@Path("/API/")
 public class RestfulService {
 	
 	@GET
@@ -47,7 +47,23 @@ public class RestfulService {
 	
 	
 	@GET
-	@Path("/getOccurence/json/{fields}/{sources}/{keyword}")
+	@Path("/getImportantEvents/json/{n}/{query}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Event> getImportantEvents(@PathParam("query") String solrFormatedQuery,
+			@PathParam("n") int n) { //solr formated query (q=...) and the number of events to be returned
+		SolrDBManager db = new SolrDBManager();
+		List<Event> events = new ArrayList<Event> ();
+		try{
+			events = db.searchBySolrQuery(n, solrFormatedQuery);
+		}catch(Exception e){
+			e.printStackTrace();	
+		}
+		return events;
+	}
+	
+	
+	@GET
+	@Path("/getGraphX/json/{fields}/{sources}/{keyword}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getCooccurences(@PathParam("keyword") String keyword, 
 			@PathParam("fields") String fields, @PathParam("sources") String sources) {
@@ -65,6 +81,29 @@ public class RestfulService {
 			
 			StoryDistribution distr = db.getDistribution(keyword, S, searchField, maxNumOfEvents);
 			coocc = distr.getCoOccurenceOfTopTerms(maxNumOfWordsToDisplay);
+			
+		}catch(Exception e){
+			e.printStackTrace();	
+		}finally{
+			
+		}
+		return coocc.toString();
+	}
+	
+	
+	
+	@GET
+	@Path("/getGraph/json/{n}/{query}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getGraph(@PathParam("query") String solrformatedQuery, @PathParam("n") int n) {
+		//n: so luong top words to display
+		SolrDBManager db = new SolrDBManager();
+		JSONArray coocc = null;
+		ArrayList<String> S = new ArrayList<String> ();
+		
+		try{
+			StoryDistribution distr = db.getDistribution(solrformatedQuery);
+			coocc = distr.getCoOccurenceOfTopTerms(n);
 			
 		}catch(Exception e){
 			e.printStackTrace();	
