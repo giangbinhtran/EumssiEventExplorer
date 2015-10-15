@@ -990,15 +990,22 @@ public class DatabaseManager{
         ResultSet result = null;
         
        try{
-    	    pstmt = openConnection().prepareStatement("select EventID, Date, Description, AnnotatedDescription from Event where EventID=?");
+    	    pstmt = openConnection().prepareStatement("select EventID, Date,Description, AnnotatedDescription, AnnotatedDescription from Event where EventID=?");
             pstmt.setString(1,eventid);
             result = pstmt.executeQuery();
             if(result.next()){
                 event = new Event();
                 event.setId(eventid);
                 event.setDate(result.getDate("Date"));
-                event.setDescription(result.getString("Description"));
-                event.setAnnotatedDescription(result.getString("AnnotatedDescription"));
+                
+                //swap for UI
+                //event.setDescription(result.getString("Description"));
+                //event.setAnnotatedDescription(result.getString("AnnotatedDescription"));
+                
+                
+                event.setDescription(result.getString("AnnotatedDescription"));
+                event.setAnnotatedDescription(result.getString("Description"));
+                
 //                String storyid = result.getString("NewsStoryID");
 //                String catid = result.getString("CategoryID");                
 //                String[] source_ids = result.getString("Sources").split("\\$");

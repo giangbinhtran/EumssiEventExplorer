@@ -33,6 +33,7 @@ public class Event implements Comparable<Event>, Serializable{
 	@XmlElement
     private String description;
     
+	@XmlElement
 	private String annotatedDescription;
     
     
