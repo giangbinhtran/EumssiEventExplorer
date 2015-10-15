@@ -106,8 +106,7 @@
 </div>
 
 		<div>
-		<script type="text/javascript">
-		var cooccurenceJson = '<s:property escape = "false"  value="coocc"/>';</script>
+		
 		<script src="scripts/d3/d3.js"></script>
 		<script src="scripts/d3/d3.layout.cloud.js"></script>
 		<script src="scripts/d3/d3.layout.js"></script>

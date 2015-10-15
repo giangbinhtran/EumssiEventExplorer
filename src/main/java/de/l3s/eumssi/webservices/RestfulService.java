@@ -61,6 +61,50 @@ public class RestfulService {
 		return events;
 	}
 	
+	@GET
+	@Path("/getWikipediaEvents/json/{fromDate}/{toDate}/{keyword}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Event> getWikipediaEvents(@PathParam("keyword") String keyword,
+			@PathParam("fromDate") String fromDate, @PathParam("toDate") String toDate) { //solr formated query (q=...) and the number of events to be returned
+		DatabaseManager db = new DatabaseManager(); //wcep events
+		List<Event> events = new ArrayList<Event> ();
+		try{
+			if(keyword == null){
+				events = db.getEvents(fromDate, toDate);
+			}else if (keyword.isEmpty()){
+				events = db.getEvents(fromDate, toDate);
+			}else{
+				events = db.searchEventsByKeyword(keyword, fromDate, toDate);
+			}
+		}catch(Exception e){
+			e.printStackTrace();	
+		}
+		return events;
+	}
+	
+	@GET
+	@Path("/getWikipediaEventsByStory/json/{wikipediaUrl}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Event> getWikipediaStory(@PathParam("wikipediaUrl") String wikipediaUrl) {
+		DatabaseManager db = new DatabaseManager(); //wcep events  e.g story http://en.wikipedia.org/wiki/2003_invasion_of_Iraq
+		Story story = null;
+		List<Event> events = new ArrayList<Event>();
+		try{
+			if(wikipediaUrl == null){
+				return events;
+			}else if (wikipediaUrl.isEmpty()){
+				return events;
+			}else{
+				story = db.getStoryByURL(wikipediaUrl);
+				events = db.getEventsByStory(story.getId());
+			}
+		}catch(Exception e){
+			e.printStackTrace();	
+		}
+		return events;
+	}
+
+	
 	
 	@GET
 	@Path("/getGraphX/json/{fields}/{sources}/{keyword}")
@@ -111,6 +155,29 @@ public class RestfulService {
 			
 		}
 		return coocc.toString();
+	}
+	
+	@GET
+	@Path("/getWordCloud/json/{n}/{query}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getWordCloud(@PathParam("query") String solrformatedQuery, 
+			@PathParam("n") int n) {
+		SolrDBManager db = new SolrDBManager();
+		JSONArray tfjson = null;
+		
+		try{
+			
+			StoryDistribution distr = db.getDistribution(solrformatedQuery);
+			tfjson =  distr.getTermFrequencies(n);
+			
+			System.out.println("Finish generating wordcloud");
+			
+		}catch(Exception e){
+			e.printStackTrace();	
+		}finally{
+			
+		}
+		return tfjson.toString();
 	}
 	
 	@GET

@@ -19,8 +19,8 @@ import de.l3s.eumssi.service.ContentHandling;
 public class WCEPEventSearch  extends ActionSupport implements ServletRequestAware {
 	
 	private static final long serialVersionUID = 1L;
-	private ContentHandling helper = new ContentHandling();
-	private DatabaseManager db = new DatabaseManager();
+	private ContentHandling helper = new ContentHandling(); 
+	private DatabaseManager db = new DatabaseManager(); //wcep events
 	private String query;
 	private String filterType = null;
 	private String filterItemId = null;

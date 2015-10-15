@@ -514,13 +514,14 @@ public class DatabaseManager{
 	}
     
     
-    public Story getStoryByURL(String wikiURL) {
+    public Story getStoryByURL(String wikiURL) { // must be in short formated e.g. 2003_invasion_of_Iraq
     	Story story = null;
 		PreparedStatement pstmt = null;
 		ResultSet result = null;
-		
+		if (!wikiURL.startsWith("http://")) wikiURL = "http://en.wikipedia.org/wiki/" + wikiURL;
+		System.out.println("Search story by url "  + wikiURL);
 		try {
-			pstmt = openConnection().prepareStatement("SELECT n.StoryID, n.Label, w.WikipediaURL FROM NewsStory n join WikiRef w on n.WikiRefID = w.WikiRefID where w.WikipediaURL=?");
+			pstmt = openConnection().prepareStatement("SELECT n.StoryID, n.Label, n.WikipediaURL FROM NewsStory n where n.WikipediaURL=?");
 			pstmt.setString(1, wikiURL);
 	        result = pstmt.executeQuery();
 	        
