@@ -58,6 +58,7 @@ public class RestfulService {
 		}catch(Exception e){
 			e.printStackTrace();	
 		}
+		
 		return events;
 	}
 	
@@ -97,6 +98,28 @@ public class RestfulService {
 			}else{
 				story = db.getStoryByURL(wikipediaUrl);
 				events = db.getEventsByStory(story.getId());
+			}
+		}catch(Exception e){
+			e.printStackTrace();	
+		}
+		return events;
+	}
+
+	@GET
+	@Path("/getWikipediaEventsByEntity/json/{wikipediaName}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Event> getWikipediaEventsByEntity(@PathParam("wikipediaName") String wikipediaName) {
+		DatabaseManager db = new DatabaseManager(); //Wikipedia Name like "Warsaw",
+		Story story = null;
+		List<Event> events = new ArrayList<Event>();
+		try{
+			if(wikipediaName == null){
+				return events;
+			}else if (wikipediaName.isEmpty()){
+				return events;
+			}else{
+				//events = db.getEventsByStory(story.getId());
+				events = db.getEventsByEntityName(wikipediaName, "2000-01-01", "2015-12-31");
 			}
 		}catch(Exception e){
 			e.printStackTrace();	
