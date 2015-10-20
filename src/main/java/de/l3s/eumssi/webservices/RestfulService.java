@@ -104,6 +104,27 @@ public class RestfulService {
 		}
 		return events;
 	}
+	
+	
+	@GET
+	@Path("/getWikipediaStoriesByCategory/json/{category}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<Story> getWikipediaStoriesByCategory(@PathParam("category") String category) {
+		DatabaseManager db = new DatabaseManager(); //wcep events  e.g story http://en.wikipedia.org/wiki/2003_invasion_of_Iraq
+		List<Story> stories = new ArrayList<Story>();
+		try{
+			if(category == null){
+				return stories;
+			}else if (category.isEmpty()){
+				return stories;
+			}else{
+				stories =  db.getStoryByCategory(category);
+			}
+		}catch(Exception e){
+			e.printStackTrace();	
+		}
+		return stories;
+	}
 
 	@GET
 	@Path("/getWikipediaEventsByEntity/json/{wikipediaName}")
@@ -232,6 +253,10 @@ public class RestfulService {
 		}
 		return tfjson.toString();
 	}
+	
+	
+	
+	
 	
 	private ArrayList<String> formSearchField(String fields) {
 		ArrayList<String> searchFields = new ArrayList<String> ();

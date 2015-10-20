@@ -15,6 +15,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Properties;
 
 import de.l3s.eumssi.model.*;
@@ -541,6 +542,34 @@ public class DatabaseManager{
 		return story;
     }
     
+    
+    public ArrayList<Story> getStoryByCategory(String categoryName) { 
+    	ArrayList<Story> stories = new ArrayList<Story>();
+		PreparedStatement pstmt = null;
+		ResultSet result = null;
+		try {
+			pstmt = openConnection().prepareStatement("SELECT n.StoryID, n.Label, n.WikipediaURL FROM NewsStory n " +
+					" join Story_Category_Relation r on n.StoryID=r.StoryID " +
+					" join Category c on c.CategoryID = r.CategoryID " + 
+					"where c.Name=?");
+			pstmt.setString(1, categoryName);
+	        result = pstmt.executeQuery();
+	        
+	        while(result.next()){
+	        	Story story = new Story();
+	        	story.setId(result.getString("StoryID"));
+	        	story.setName(result.getString("Label"));
+	        	story.setWikipediaUrl(result.getString("WikipediaURL"));
+	        	stories.add(story);
+	        }
+		} catch (SQLException e) {			
+			e.printStackTrace();
+		}finally{
+			if (result != null) try { result.close(); } catch (SQLException e) {e.printStackTrace();}
+			if (pstmt != null)  try { pstmt.close();  } catch (SQLException e) {e.printStackTrace();}
+		}
+		return stories;
+    }
     
     public Category getCategoryById(String categoryId){
     	Category category = null;

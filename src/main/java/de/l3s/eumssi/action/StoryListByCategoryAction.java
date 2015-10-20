@@ -35,7 +35,7 @@ public class StoryListByCategoryAction implements Action {
 
 	public String execute() throws Exception{
 		
-		if (ServletActionContext.getRequest().getServerName().equals("wikitimes.l3s.de")){
+		if (ServletActionContext.getRequest().getServerName().equals("eumssi.l3s.de")){
 			contextPath = null;
 			useContextPath = false;
 		}else{
