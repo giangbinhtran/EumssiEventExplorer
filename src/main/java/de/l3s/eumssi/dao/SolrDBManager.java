@@ -55,7 +55,7 @@ public class SolrDBManager {
 	HttpSolrServer solr;
 	public Properties conf;
 	public SolrDBManager() {
-		//lemma.init();
+		lemma.init();
 		try {
 			loadConfiguration();
 		} catch (Exception e) {
@@ -236,7 +236,7 @@ public class SolrDBManager {
 		query.setQuery(solrquery);
 		
 		
-		query.setRows(500);
+		query.setRows(300);
 		StoryDistribution sd = new StoryDistribution();
 		System.out.println("SearchByKeyword" + query.toString());
 		QueryResponse response;
