@@ -259,7 +259,7 @@ public class SolrDBManager {
 		    			
 			    		if (searchField.equals("meta.source.headline")) {
 			    			headline = results.get(i).getFieldValue("meta.source.headline").toString();
-			    			headline = clean(headline);
+			    			//headline = clean(headline);
 			    		}
 			    		
 			    		if (searchField.equals("meta.source.url")) {
