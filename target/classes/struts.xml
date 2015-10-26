@@ -28,7 +28,16 @@
 			class="de.l3s.eumssi.action.countryQuestionAction">
             <result name="success">/views/countryQuestionView.jsp</result>
         </action>
-       
+        
+       <action name="solrpersoninfo" 
+			class="de.l3s.eumssi.action.SolrPersonInfoAction">
+            <result name="success">/views/SolrPersonInfoView.jsp</result>
+        </action>
+        
+        <action name="locationinfo" 
+			class="de.l3s.eumssi.action.LocationInfoAction">
+            <result name="success">/views/LocationInfoView.jsp</result>
+        </action>
         
         
 		<action name="EventSearchByKeywordInDBOnlyAction"
