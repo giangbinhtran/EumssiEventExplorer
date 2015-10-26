@@ -375,7 +375,11 @@ public class textsyncAction implements Action, ServletRequestAware{
 			ServletContext context = request.getServletContext();
 			String path = context.getRealPath("/");
 		//	System.out.println(path);
-			File file = new File(path+"scripts"+File.separator+jsonFileName+".json");
+
+			File file = new File(path+File.separator+"scripts"+File.separator+jsonFileName+".json");
+
+		
+
 			System.out.println("Local filename to write: " + file.getAbsolutePath());
 		    // if file doesnt exists, then create it
 			if (!file.exists()) {
