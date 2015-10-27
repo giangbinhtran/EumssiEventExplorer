@@ -460,7 +460,7 @@ public class SolrDBManager {
 		query.addFilterQuery("source:" + source);
 		query.addFilterQuery("meta.source.inLanguage:\"en\"");
 		//--------------------------------------------------------------------
-		query.setFields("meta.source.datePublished", "meta.source.headline", "meta.source.url", "meta.source.httpHigh", 
+		query.setFields("meta.source.datePublished", "meta.source.headline", "meta.source.url", "meta.source.mediaurl", 
 				"meta.source.publisher", "meta.extracted.text.dbpedia.all");
 		for (String searchField: searchfields) {query.addField(searchField);}
 		
@@ -488,7 +488,7 @@ public class SolrDBManager {
 		    	headline = clean(headline);
 		    	String url = null;
 		    	Object uObj = results.get(i).getFieldValue("meta.source.url");
-		    	if (uObj==null) uObj = results.get(i).getFieldValue("meta.source.httpHigh");
+		    	if (uObj==null) uObj = results.get(i).getFieldValue("meta.source.mediaurl");
 		    	
 		    	if (uObj!= null) {
 		    		url  = uObj.toString(); 
@@ -529,7 +529,7 @@ public class SolrDBManager {
 		    	e.setHeadline(headline);
 		    	if (ref!=null) e.addReference(ref);
 		    	if (e.getDate().toString().compareTo("2050")<0) { //ensure there is not a date mistake when adding events to show
-		    		if (!selectedTitles.contains(headline)) {
+		    		if (!selectedTitles.contains(headline) && e.getEntities().size()>0) {
 		    			itemList.add(e);
 		    			selectedTitles.add(headline);
 		    		}
