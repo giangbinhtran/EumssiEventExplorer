@@ -56,12 +56,14 @@ public class SolrDBManager {
 	HttpSolrServer solr;
 	public Properties conf;
 	public SolrDBManager() {
+		/*
 		lemma.init();
 		try {
 			loadConfiguration();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		*/
 		solr = new HttpSolrServer("http://eumssi.cloudapp.net/Solr_EUMSSI/content_items/");
 	}
 	
@@ -608,6 +610,113 @@ public class SolrDBManager {
 	
 	// using solrformated query to get the list of events from the solr db 
 	// and the filtering to keep n numebr of events
+	public List<Event> getImportantEvents(int n, String solrFormatedQuery) {
+		ArrayList<Event> itemList = new ArrayList<Event> ();
+		HashSet<String> selectedTitles = new HashSet<String> ();
+		SolrQuery query = new SolrQuery();
+		query.setFields("meta.source.datePublished", "meta.source.headline", "meta.source.url", 
+				"meta.source.publisher", "meta.source.text", "meta.extracted.text.ner.all");
+		query.setQuery(solrFormatedQuery);
+		
+		
+		query.setRows(5*n);		
+		System.out.println("SearchByKeyword" + query.toString());
+		QueryResponse response;
+
+		try {
+			response = solr.query(query);
+			SolrDocumentList results = response.getResults();
+		    for (int i = 0; i < results.size(); ++i) {
+		    	StringBuffer sb = new StringBuffer();
+		    	String headline = null;
+		    	String url = null;
+		    	for (String searchField: new String[] {"meta.source.text", "meta.source.datePublished", 
+		    			"meta.source.headline", "meta.source.url", "meta.source.publisher", 
+		    			"meta.extracted.text.ner.all"}) 
+		    	{
+		    		Object fieldVal = results.get(i).getFieldValue(searchField);
+		    		if (fieldVal!=null) {
+			    		
+		    			if (searchField.equals("meta.source.text")) {
+			    			sb.append(results.get(i).getFieldValue("meta.source.text").toString());
+			    		}
+		    			
+			    		if (searchField.equals("meta.source.headline")) {
+			    			headline = results.get(i).getFieldValue("meta.source.headline").toString();
+			    			headline = clean(headline);
+			    		}
+			    		
+			    		if (searchField.equals("meta.source.url")) {
+			    			Object uObj = results.get(i).getFieldValue("meta.source.url");
+			    			if (uObj==null) uObj = results.get(i).getFieldValue("meta.source.mediaurl");
+			    			if (uObj!= null) {
+			    				url  = uObj.toString(); 
+			    			}
+			    		}
+		    		}
+		    	}
+		    	String fieldText = sb.toString().substring(0, Math.min(300, sb.length())) + "..."; // short description
+		    	
+		    	String publisher = "";
+		    	Object pObj = results.get(i).getFieldValue("meta.source.publisher");
+		    	if (pObj!=null)
+		    		publisher = pObj.toString();
+		    	else {
+		    		publisher = "Deutsche Welle";
+		    	}
+		    	
+		    	Reference ref =  null;
+		    	if (url != null) {
+		    		ref = new Reference(url, url, publisher);
+		    	}
+		    	
+		    	Date date = (Date) results.get(i).getFieldValue("meta.source.datePublished");
+		    	java.sql.Date sqldate = null;
+		    	if (date!= null )
+		    		sqldate = new java.sql.Date(date.getYear(), date.getMonth(), date.getDate());
+		    	
+		    	//dbpedia entities
+		    	ArrayList<Entity> dbentities = new ArrayList<Entity> ();
+		    	HashMap<String, Integer> en_hash = new HashMap<String, Integer> ();
+		    	Collection<Object> entityObject = results.get(i).getFieldValues("meta.extracted.text.ner.all");
+		    	if (entityObject!=null)  {
+			    	for (Object oe: entityObject) {
+			    		String entityName = oe.toString();
+			    		Entity e = new Entity();
+			    		
+			    		e.setName(entityName);
+			    		if (!en_hash.containsKey(entityName) && dbentities.size()<10)
+			    			dbentities.add(e);
+			    		en_hash.put(entityName, 1);
+			    	}
+		    	}
+		    	
+		    	
+		    	Event e = new Event();
+		    	e.setEntities(dbentities);
+		    	e.setDescription(fieldText);
+		    	e.setDate(sqldate);
+		    	e.setHeadline(headline);
+		    	if (ref!=null) e.addReference(ref);
+		    	if (e.getDate()!=null && e.getDate().toString().compareTo("2050")<0) { 
+		    		//ensure there is not a date mistake when adding events to show
+		    		if (!selectedTitles.contains(headline)) {
+		    			itemList.add(e);
+		    			selectedTitles.add(headline);
+		    		}
+		    	}
+		    }
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+		
+		
+		System.out.println("successfully returns " + itemList.size());
+	    
+		return itemList;
+	}
+	
+	
 	public List<Event> searchBySolrQuery(int n, String solrFormatedQuery) {
 		ArrayList<Event> itemList = new ArrayList<Event> ();
 		HashSet<String> selectedTitles = new HashSet<String> ();

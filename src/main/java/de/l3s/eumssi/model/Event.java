@@ -48,7 +48,7 @@ public class Event implements Comparable<Event>, Serializable{
 	@XmlElement(name="belongsToStory")
 	private StoryCompact storyCompact = null;
     
-	//@XmlElement(name="entity")
+	@XmlElement(name="entity")
 	private ArrayList<Entity> entities = new ArrayList<Entity> ();
     
 	//@XmlElement(name="source")

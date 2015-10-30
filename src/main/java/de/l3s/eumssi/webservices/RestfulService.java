@@ -55,7 +55,7 @@ public class RestfulService {
 		SolrDBManager db = new SolrDBManager();
 		List<Event> events = new ArrayList<Event> ();
 		try{
-			events = db.searchBySolrQuery(n, solrFormatedQuery);
+			events = db.getImportantEvents(n, solrFormatedQuery);
 		}catch(Exception e){
 			e.printStackTrace();	
 		}
