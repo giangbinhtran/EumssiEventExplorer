@@ -72,7 +72,7 @@ public class EventDistribution {
 			bigrams.get(w1).put(w2, curr+1);
 		}
 	}
-	public String truncate(String term) {
+	public static String truncate(String term) {
 		if (term.isEmpty()) return term;
 		if ( !Character.isAlphabetic((int)term.charAt(term.length()-1))) {
 			return term.substring(0, term.length()-1).toLowerCase();
@@ -85,7 +85,7 @@ public class EventDistribution {
 		return bigrams;
 	}
  	
-	public boolean isBlackListed(String term) {
+	public static boolean isBlackListed(String term) {
 		return 	term.isEmpty()||
 				term.equals("Photograph") || term.contains("WhatsApp") ||
 				! Character.isAlphabetic((int)term.charAt(0));

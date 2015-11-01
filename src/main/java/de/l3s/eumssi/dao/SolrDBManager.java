@@ -33,7 +33,9 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import de.l3s.eumssi.core.EventDistribution;
+import de.l3s.eumssi.core.Stopwords;
 import de.l3s.eumssi.core.StoryDistribution;
+import de.l3s.eumssi.core.sortingMap;
 import de.l3s.eumssi.model.Entity;
 import de.l3s.eumssi.model.Event;
 import de.l3s.eumssi.model.Reference;
@@ -825,20 +827,28 @@ public class SolrDBManager {
 	}
 
 
-	public HashMap<String, Integer> getSemanticDistribution(String solrquery,
-			String type, String language) {
+	public HashMap<String, Integer> getSemanticDistribution(String solrquery, 
+			 String language, String field) {
 		HashMap<String, Integer> distribution = new HashMap<String, Integer> ();
 		ArrayList<Event> itemList = new ArrayList<Event> ();
 		HashSet<String> selectedTitles = new HashSet<String> ();
 		SolrQuery query = new SolrQuery();
-		query.setFields( 
-				"meta.source.headline", 
-				"meta.source.text", 
-				"meta.extracted.text.ner.all", 
-				"meta.source.keywords"
-				);
+		query.setFields(field);
+//		query.setFields( 
+//				"meta.source.headline", 
+//				"meta.source.text", 
+//				"meta.source.keywords",
+//				"meta.extracted.text.dbpedia.all",
+//				"meta.extracted.text.dbpedia.PERSON",
+//				"meta.extracted.text.dbpedia.ORGANIZATION",
+//				"meta.extracted.text.dbpedia.LOCATION",
+//				"meta.extracted.text.ner.PERSON",
+//				"meta.extracted.text.ner.ORGANIZATION",
+//				"meta.extracted.text.ner.LOCATION",
+//				"meta.extracted.text.ner.all"
+//				);
 		query.setQuery(solrquery);
-		query.addFilterQuery("meta.source.inLanguage:\"" + language + "\"");
+		//query.addFilterQuery("meta.source.inLanguage:\"" + language + "\"");
 		query.setRows(1000);
 		StoryDistribution sd = new StoryDistribution();
 		System.out.println("SearchByKeyword\n" + query.toString());
@@ -848,32 +858,12 @@ public class SolrDBManager {
 			response = solr.query(query);
 			SolrDocumentList results = response.getResults();
 		    for (int i = 0; i < results.size(); ++i) {
-		    	StringBuffer sb = new StringBuffer();
-		    	String headline = null;
-		    	String url = null;
-		    	for (String searchField: new String[] {"meta.source.text",  
-		    			"meta.source.headline",  "meta.extracted.text.ner.all", "meta.source.keywords"}) 
-		    	{
-		    		Object fieldVal = results.get(i).getFieldValue(searchField);
-		    		if (fieldVal!=null) {
-			    		
-		    			if (searchField.equals("meta.source.text")) {
-			    			sb.append(fieldVal.toString());
-			    		}
-		    			
-			    		if (searchField.equals("meta.source.headline")) {
-			    			headline = fieldVal.toString();
-			    			//headline = clean(headline);
-			    		}
-			    		
-		    		}
-		    	}
-		    	String fieldText = sb.toString(); // short description
 		    
-		    	//entities
+		    	//entity based type
 		    	ArrayList<Entity> dbentities = new ArrayList<Entity> ();
-		    	if (type.equals("entity")) {
-			    	Collection<Object> entityObject = results.get(i).getFieldValues("meta.extracted.text.ner.all");
+		    	String sfield = getFieldFromQuery(field);	//to ensure the corrected field
+		    	Collection<Object> entityObject = results.get(i).getFieldValues(sfield);
+		    	if (isEntityBasedType(solrquery)) {
 			    	if (entityObject!=null)  {
 				    	for (Object oe: entityObject) {
 				    		String entityName = oe.toString();
@@ -882,40 +872,184 @@ public class SolrDBManager {
 				    	}
 			    	}
 		    	}
-		    	
-		    	if (type.equals("keyword")) {
-			    	Collection<Object> keywords = results.get(i).getFieldValues("meta.source.keywords");
-			    	if (keywords!=null)  {
-				    	for (Object oe: keywords) {
-				    		String kw = oe.toString();
-				    		int cur = distribution.containsKey(kw)?distribution.get(kw):0;
-				    		distribution.put(kw, cur+1);
+		    	else {// text base query
+			    	if (entityObject!=null)  {
+				    	for (Object oe: entityObject) {
+				    		String text = oe.toString();
+				    		for (String term: text.split("\\s+")) {
+				    			term = EventDistribution.truncate(term);
+				    			if (term.endsWith(":")) term = term.replace(":","");
+				    			if (EventDistribution.isBlackListed(term)) continue;
+				    			if (!Stopwords.isStopword(term)) {
+				    				int cur = distribution.containsKey(term)?distribution.get(term):0;
+				    				distribution.put(term, cur+1);
+				    			}
+				    		}
+				    		
 				    	}
 			    	}
 		    	}
-		    	
-		    	/*
-		    	Event e = new Event();
-		    	e.setEntities(dbentities);
-		    	e.setDescription(fieldText);
-		    	e.setDate(sqldate);
-		    	e.setHeadline(headline);
-		    	if (ref!=null) e.addReference(ref);
-		    	if (e.getDate()!=null && e.getDate().toString().compareTo("2050")<0) { 
-		    		//ensure there is not a date mistake when adding events to show
-		    		if (!selectedTitles.contains(headline)) {
-		    			selectedTitles.add(headline);
-		    			EventDistribution evt = new EventDistribution(e.getDescription(), date);
-			    		sd.index(evt);
-		    		}
-		    	}
-		    	*/
+		    
 		    }
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 		return distribution;
 	}
+
+/**
+ * 	
+ * @param solrquery
+ * @param n: number of nodes to keep
+ * @param language
+ * @param field
+ * @return
+ */
+	public JSONArray getSemanticGraph(String solrquery, int n, 
+			 String language, String field) {
+		HashMap<String, Integer> distribution = new HashMap<String, Integer> ();
+		HashMap<String, Integer> graph = new HashMap<String, Integer> ();
+		SolrQuery query = new SolrQuery();
+		query.setFields(field);
+//		query.setFields( 
+//				"meta.source.headline", 
+//				"meta.source.text", 
+//				"meta.source.keywords",
+//				"meta.extracted.text.dbpedia.all",
+//				"meta.extracted.text.dbpedia.PERSON",
+//				"meta.extracted.text.dbpedia.ORGANIZATION",
+//				"meta.extracted.text.dbpedia.LOCATION",
+//				"meta.extracted.text.ner.PERSON",
+//				"meta.extracted.text.ner.ORGANIZATION",
+//				"meta.extracted.text.ner.LOCATION",
+//				"meta.extracted.text.ner.all"
+//				);
+		query.setQuery(solrquery);
+		//query.addFilterQuery("meta.source.inLanguage:\"" + language + "\"");
+		query.setRows(1000);
+		System.out.println("SearchByKeyword\n" + query.toString());
+		QueryResponse response;
+
+		try {
+			response = solr.query(query);
+			SolrDocumentList results = response.getResults();
+		    for (int i = 0; i < results.size(); ++i) {
+		    
+		    	//entity based type
+		    	String sfield = getFieldFromQuery(field);	//to ensure the corrected field
+		    	Collection<Object> entityObject = results.get(i).getFieldValues(sfield);
+		    	HashSet<String> itemset = new HashSet<String> ();
+		    	
+		    	if (isEntityBasedType(solrquery)) {
+			    	if (entityObject!=null)  {
+				    	for (Object oe: entityObject) {
+				    		String entityName = oe.toString();
+				    		int cur = distribution.containsKey(entityName)?distribution.get(entityName):0;
+				    		distribution.put(entityName, cur+1);
+				    		itemset.add(entityName);
+				    	}
+				    	
+			    	}
+		    	}
+		    	else {// text base query
+			    	if (entityObject!=null)  {
+				    	for (Object oe: entityObject) {
+				    		String text = oe.toString();
+				    		for (String term: text.split("\\s+")) {
+				    			term = EventDistribution.truncate(term);
+				    			if (term.endsWith(":")) term = term.replace(":","");
+				    			if (EventDistribution.isBlackListed(term)) continue;
+				    			if (!Stopwords.isStopword(term)) {
+				    				int cur = distribution.containsKey(term)?distribution.get(term):0;
+				    				distribution.put(term, cur+1);
+				    				itemset.add(term);
+				    			}
+				    		}
+				    		
+				    	}
+			    	}
+		    	}
+		    	
+		    	//co-occurence
+		    	ArrayList<String> entities = new ArrayList<String> ();
+		    	for (String s: itemset) entities.add(s);
+		    	for (int x = 0; x < entities.size()-1; x++) {
+		    		for (int y  = 0; y <x; y++) {
+		    			String graphkey = entities.get(y) + ">>_<<" + entities.get(x); 
+		    			if (entities.get(x).compareTo(entities.get(y)) <0) {
+		    				graphkey = entities.get(x) + ">>_<<" + entities.get(y);
+		    			}
+		    			int cur = graph.containsKey(graphkey)?graph.get(graphkey):0;
+		    			graph.put(graphkey, cur+1);
+		    		}
+		    	}
+		    }
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+		
+		ArrayList<String> all_items = new ArrayList<String> ();
+		for (String s: graph.keySet()) all_items.add(s);
+		System.out.println(all_items.size());
+		sortingMap.qsort(all_items, graph, 0, all_items.size()-1);
+		JSONArray jsa = new JSONArray();
+		for (int j = 0; j < Math.min(n, graph.size()); j++) {
+			JSONObject o = new JSONObject();
+			String graphkey = all_items.get(j);
+			String[] keysplt  = graphkey.split(">>_<<");
+			int f = graph.get(all_items.get(j));
+			if  (keysplt.length <2) continue;
+			
+			try {
+				o.put("source", keysplt[0]);
+				o.put("target", keysplt[1]);
+				o.put("weight", Math.floor(1.0 * f/1));
+				jsa.put(o);
+			} catch (JSONException e) {
+				e.printStackTrace();
+			}
+		}
+		
+		return jsa;
+	}
 	
+	/**
+	 * 	 * @param solrquery
+	 * @return
+	 */
+	private boolean isEntityBasedType(String solrquery) {
+		String[] fields = new String[] {
+				"meta.source.keywords",
+				"meta.extracted.text.dbpedia.all",
+				"meta.extracted.text.dbpedia.PERSON",
+				"meta.extracted.text.dbpedia.ORGANIZATION",
+				"meta.extracted.text.dbpedia.LOCATION",
+				"meta.extracted.text.ner.PERSON",
+				"meta.extracted.text.ner.ORGANIZATION",
+				"meta.extracted.text.ner.LOCATION",
+				"meta.extracted.text.ner.all"};
+		for (String f: fields) 
+			if (solrquery.contains(f)) return true;
+		return false;
+	}
+	
+	
+	private String getFieldFromQuery(String solrquery) {
+		String[] fields = new String[] {
+				"meta.source.headline", 
+				"meta.source.text", 
+				"meta.source.keywords",
+				"meta.extracted.text.dbpedia.all",
+				"meta.extracted.text.dbpedia.PERSON",
+				"meta.extracted.text.dbpedia.ORGANIZATION",
+				"meta.extracted.text.dbpedia.LOCATION",
+				"meta.extracted.text.ner.PERSON",
+				"meta.extracted.text.ner.ORGANIZATION",
+				"meta.extracted.text.ner.LOCATION",
+				"meta.extracted.text.ner.all"};
+		for (String f: fields) 
+			if (solrquery.contains(f)) return f;
+		return "meta.extracted.text.ner.all"; // by default
+	}
 	
 }

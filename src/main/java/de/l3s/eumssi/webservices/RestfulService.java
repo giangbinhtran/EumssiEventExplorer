@@ -203,6 +203,24 @@ public class RestfulService {
 	}
 	
 	@GET
+	@Path("/getSemanticGraph/json/{n}/{query}/{language}/{field}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getGraph(@PathParam("query") String solrformatedQuery, @PathParam("n") int n,
+			@PathParam("language") String language,
+			@PathParam("field") String field) {
+		//n: so luong top words to display
+		SolrDBManager db = new SolrDBManager();
+		JSONArray coocc = new JSONArray();
+				
+		try{
+			coocc = db.getSemanticGraph(solrformatedQuery, n, language, field);
+		}catch(Exception e){
+			e.printStackTrace();	
+		}
+		return coocc.toString();
+	}
+	
+	@GET
 	@Path("/getWordCloud/json/{n}/{query}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getWordCloud(@PathParam("query") String solrformatedQuery, 
@@ -230,22 +248,26 @@ public class RestfulService {
 	 * 
 	 * @param solrformatedQuery
 	 * @param n: number of items to return
-	 * @param type: entity or keyword
+	 * @param type: entity keyword
 	 * @param language: filter by en, de, es, fr language
+	 * @param query: solr based query
 	 * @return json style of [{item, frequency}]
+	 
 	 */
 	@GET
-	@Path("/getSemanticCloud/json/{n}/{type}/{query}/{language}")
+	@Path("/getSemanticCloud/json/{n}/{query}/{language}/{field}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public String getWordCloud(@PathParam("query") String solrformatedQuery, 
-			@PathParam("n") int n, @PathParam("type") String type, @PathParam("language") String language) {
+	public String getSemanticCloud(@PathParam("query") String solrformatedQuery, 
+			@PathParam("n") int n,
+			@PathParam("language") String language,
+			@PathParam("field") String field) {
 	
 		SolrDBManager db = new SolrDBManager();
 		JSONArray tfjson = null;
 		
 		try{
 			
-			HashMap<String, Integer> distr = db.getSemanticDistribution(solrformatedQuery, type, language);
+			HashMap<String, Integer> distr = db.getSemanticDistribution(solrformatedQuery, language, field);
 			tfjson =  StoryDistribution.getTermFrequencies(distr, n);
 			
 			System.out.println("Finish generating cloud");
