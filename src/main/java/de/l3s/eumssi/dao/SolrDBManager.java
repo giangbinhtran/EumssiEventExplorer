@@ -828,7 +828,7 @@ public class SolrDBManager {
 
 
 	public HashMap<String, Integer> getSemanticDistribution(String solrquery, 
-			 String language, String field) {
+			 String language, String field, String filterValue) {
 		HashMap<String, Integer> distribution = new HashMap<String, Integer> ();
 		ArrayList<Event> itemList = new ArrayList<Event> ();
 		HashSet<String> selectedTitles = new HashSet<String> ();
@@ -849,6 +849,7 @@ public class SolrDBManager {
 //				);
 		query.setQuery(solrquery);
 		//query.addFilterQuery("meta.source.inLanguage:\"" + language + "\"");
+		query.addFilterQuery(field + ":*" + filterValue + "*");
 		query.setRows(1000);
 		StoryDistribution sd = new StoryDistribution();
 		System.out.println("SearchByKeyword\n" + query.toString());
@@ -906,7 +907,7 @@ public class SolrDBManager {
  * @return
  */
 	public JSONArray getSemanticGraph(String solrquery, int n, 
-			 String language, String field) {
+			 String language, String field, String filterValue) {
 		HashMap<String, Integer> distribution = new HashMap<String, Integer> ();
 		HashMap<String, Integer> graph = new HashMap<String, Integer> ();
 		SolrQuery query = new SolrQuery();
@@ -926,6 +927,7 @@ public class SolrDBManager {
 //				);
 		query.setQuery(solrquery);
 		//query.addFilterQuery("meta.source.inLanguage:\"" + language + "\"");
+		query.addFilterQuery(field + ":*" + filterValue + "*");
 		query.setRows(1000);
 		System.out.println("SearchByKeyword\n" + query.toString());
 		QueryResponse response;
@@ -956,7 +958,7 @@ public class SolrDBManager {
 				    	for (Object oe: entityObject) {
 				    		String text = oe.toString();
 				    		for (String term: text.split("\\s+")) {
-				    			term = EventDistribution.truncate(term);
+				    			term = EventDistribution.truncate(term).toLowerCase();
 				    			if (term.endsWith(":")) term = term.replace(":","");
 				    			if (EventDistribution.isBlackListed(term)) continue;
 				    			if (!Stopwords.isStopword(term)) {
@@ -991,8 +993,10 @@ public class SolrDBManager {
 		ArrayList<String> all_items = new ArrayList<String> ();
 		for (String s: graph.keySet()) all_items.add(s);
 		System.out.println(all_items.size());
-		sortingMap.qsort(all_items, graph, 0, all_items.size()-1);
 		JSONArray jsa = new JSONArray();
+		if (all_items.size()==0) return jsa;
+		sortingMap.qsort(all_items, graph, 0, all_items.size()-1);
+		
 		for (int j = 0; j < Math.min(n, graph.size()); j++) {
 			JSONObject o = new JSONObject();
 			String graphkey = all_items.get(j);

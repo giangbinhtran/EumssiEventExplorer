@@ -203,17 +203,18 @@ public class RestfulService {
 	}
 	
 	@GET
-	@Path("/getSemanticGraph/json/{n}/{query}/{language}/{field}")
+	@Path("/getSemanticGraph/json/{n}/{query}/{language}/{field}/{filterValue}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getGraph(@PathParam("query") String solrformatedQuery, @PathParam("n") int n,
 			@PathParam("language") String language,
-			@PathParam("field") String field) {
+			@PathParam("field") String field, 
+			@PathParam("filterValue") String filterValue) {
 		//n: so luong top words to display
 		SolrDBManager db = new SolrDBManager();
 		JSONArray coocc = new JSONArray();
 				
 		try{
-			coocc = db.getSemanticGraph(solrformatedQuery, n, language, field);
+			coocc = db.getSemanticGraph(solrformatedQuery, n, language, field, filterValue);
 		}catch(Exception e){
 			e.printStackTrace();	
 		}
@@ -255,19 +256,20 @@ public class RestfulService {
 	 
 	 */
 	@GET
-	@Path("/getSemanticCloud/json/{n}/{query}/{language}/{field}")
+	@Path("/getSemanticCloud/json/{n}/{query}/{language}/{field}/{filterValue}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public String getSemanticCloud(@PathParam("query") String solrformatedQuery, 
 			@PathParam("n") int n,
 			@PathParam("language") String language,
-			@PathParam("field") String field) {
+			@PathParam("field") String field,
+			@PathParam("filterValue") String filterValue) {
 	
 		SolrDBManager db = new SolrDBManager();
 		JSONArray tfjson = null;
 		
 		try{
 			
-			HashMap<String, Integer> distr = db.getSemanticDistribution(solrformatedQuery, language, field);
+			HashMap<String, Integer> distr = db.getSemanticDistribution(solrformatedQuery, language, field, filterValue);
 			tfjson =  StoryDistribution.getTermFrequencies(distr, n);
 			
 			System.out.println("Finish generating cloud");
